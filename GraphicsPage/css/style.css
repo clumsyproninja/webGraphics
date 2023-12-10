@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Marcellus&family=Merriweather+Sans:ital@1&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: #44b9f5; */
+    background-image: url(../assets/backgrounds/codingBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: #5eace3;
+    padding: 0.3%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1.5fr 1fr;
+}
+
+.logo{
+    padding-left: 5%;
+    height: 7vh;
+    width: 7vw;
+}
+
+header h1{
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+nav{
+    grid-column: 3 / 3;
+}
+
+nav ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    border: 0.12em solid #000;
+    border-radius: 0.3em;
+    width: 20%;
+    text-align: center;
+    color: #000;
+    background-color: #b3e5ff;
+    font-size: 1.15em;
+    font-family: "Merriweather Sans", sans-serif;
+    padding: 0.55%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+
+#summary{
+    grid-area: 1/2;
+    text-align: center;
+    padding-top: 5%;
+}
+
+h2{
+    font-size: 1.8em;
+    padding-bottom: 2%;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h3{
+    font-size: 1.4em;
+    padding-bottom: 1%;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#summary p,
+#creator p{
+    font-family: "Marcellus", serif;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+#creator{
+    grid-area: 2/2;
+    padding-top: 5%;
+    text-align: center;
+}
+
+#creator-img{
+    height: 45vh;
+    width: 40vw;
+    padding-bottom: 1%;
+}
+
+#members{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#members h2{
+    grid-column: 1 / span 2;
+    padding-top: 2%;
+}
+
+#contribute1{
+    width: 45vh;
+    height: 25vh;
+}
+
+#members h3{
+    grid-area: 3 / 1;
+    padding: 2%;
+}
+
