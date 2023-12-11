@@ -42,6 +42,7 @@ nav ul li{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 1.5%;
 }
 
@@ -50,9 +51,9 @@ nav ul li a{
     border: 0.12em solid #000;
     border-radius: 0.3em;
     width: 20%;
-    text-align: center;
     color: #000;
     background-color: #b3e5ff;
+    text-align: center;
     font-size: 1.15em;
     font-family: "Merriweather Sans", sans-serif;
     padding: 0.55%;
