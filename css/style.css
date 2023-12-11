@@ -6,8 +6,7 @@
 }
 
 body{
-    /* background-color: #44b9f5; */
-    background-image: url(../assets/backgrounds/codingBG.png);
+    background-image: url(/assets/backgrounds/blueBG.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -16,8 +15,8 @@ header{
     background-color: #5eace3;
     padding: 0.3%;
     display: grid;
+    grid-template-columns: 0.8fr 1fr 1fr;
     align-items: center;
-    grid-template-columns: 1fr 1.5fr 1fr;
 }
 
 .logo{
@@ -59,9 +58,22 @@ nav ul li a{
     padding: 0.55%;
 }
 
-main{
+#aboutMain{
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
+}
+
+#productMain h2{
+    padding-top: 5%;
+    margin: auto;
+    text-align: center;
+}
+
+#productMain section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    row-gap: 25%;
 }
 
 #summary{
