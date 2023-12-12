@@ -128,8 +128,8 @@ h3{
 }
 
 #creator-img{
-    height: 45vh;
-    width: 40vw;
+    height: 400px;
+    width: 620px;
     padding-bottom: 1%;
 }
 
@@ -144,4 +144,13 @@ h3{
     width: 45vh;
     height: 25vh;
     border: 5px groove #000;
+}
+
+footer{
+    margin-top: 5vh;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    color: #fff;
+    background-color: #004d66;
 }
