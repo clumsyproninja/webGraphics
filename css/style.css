@@ -6,7 +6,9 @@
 }
 
 body{
-    background-image: url(/assets/backgrounds/blueBG.png);
+    /* background-image: url(/assets/backgrounds/blueBG.png); */
+    background: linear-gradient(to bottom left, hsl(207, 100%, 20%), hsl(205, 90%, 70%), hsl(207, 100%, 20%));
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
