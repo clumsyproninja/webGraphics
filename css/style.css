@@ -135,23 +135,13 @@ h3{
 
 #members{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    gap: 2%;
 }
 
-#members h2{
-    grid-column: 1 / span 2;
-    padding-top: 2%;
-}
-
-#contribute1{
+#members img{
     width: 45vh;
     height: 25vh;
+    border: 5px groove #000;
 }
-
-#members h3{
-    grid-area: 3 / 1;
-    padding: 2%;
-}
-
