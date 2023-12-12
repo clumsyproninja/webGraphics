@@ -138,12 +138,12 @@ h3{
     border: 5px groove #000;
 }
 
-/* 
+
 footer{
-    left: 0;
-    box-sizing: border-box;
-    padding: 2%;
+    margin-top: 3%;
+    padding: 1%;
+    bottom: 0;
     text-align: center;
     color: #fff;
     background-color: #004d66;
-} */
+}
