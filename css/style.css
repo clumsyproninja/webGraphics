@@ -249,9 +249,41 @@ h3{
 
 footer{
     margin-top: 3%;
-    padding: 1%;
+    padding: 3% 3% 1%;
     bottom: 0;
-    text-align: center;
     color: #fff;
     background-color: #004d66;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer section:first-of-type{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer section:first-of-type article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+footer section:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #99ddff;
+}
+
+footer > p{
+    grid-area: 2 / 1 / 3 / span 3;
+    margin-top: 2%;
+    text-align: center;
 }
