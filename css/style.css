@@ -5,7 +5,7 @@
 }
 
 body{
-    background: linear-gradient(to bottom left, hsl(207, 100%, 20%), hsl(205, 90%, 70%), hsl(207, 100%, 20%));
+    background: linear-gradient(to bottom left, #003866, #6ebef7, #003866);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -96,7 +96,7 @@ nav ul li a{
 
 #indexMain section:nth-of-type(1){
     padding: 5%;
-    background-color: hsl(200, 85%, 30%);
+    background-color: #0b628e;
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -135,7 +135,7 @@ nav ul li a{
     margin-top: 20%;
     padding: 1%;
     justify-self: center;
-    background-color: hsl(205, 85%, 50%);
+    background-color: #1392ec;
     color: #fff;
     text-decoration: none;
     border-radius: 20px;
