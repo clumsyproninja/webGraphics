@@ -165,17 +165,41 @@ nav ul li a{
     margin: 5% 0;
 }
 
-#productMain h2{
-    padding-top: 5%;
-    margin: auto;
-    text-align: center;
+#productMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0 10%;
 }
 
 #productMain section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    row-gap: 25%;
+    gap: 50px 3%;
+}
+
+#productMain article p{
+    font-size: 1.2em;
+}
+
+#productMain img{
+    height: 23vh;
+    width: 28vw;
+    margin-bottom: 3%;
+}
+
+#productMain article p > a{
+    text-decoration: none;
+    color: white;
+    background-color: #003866;
+    border-radius: 20px;
+    padding: 1.5%;
+}
+
+#productMain > p{
+    color: #010101;
+    margin-bottom: 1%;
 }
 
 #contactMain{
